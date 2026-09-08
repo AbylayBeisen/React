@@ -1,0 +1,2 @@
+1. spread takes all the elements of the array and rest stores those elements in the other array. 
+As an example in my code I cobined numbers with the combo array and stored them in the comd array as elements of one array.

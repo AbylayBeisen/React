@@ -1,0 +1,3 @@
+1.We created a functions and those function where stored in operatione variable so thta we can use them as callbacks.
+2.Yes. 
+3.add is the function, but add() with braces is the call for the function.

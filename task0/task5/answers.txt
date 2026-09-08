@@ -1,0 +1,6 @@
+1. When we assign an object to a new var like copy or newcopy, we are just copying
+ the reference to that object and those two variables are pointing to the same object.
+
+ 2.The original's city changes with the copy.
+ The reason is that the spread copies the surface proporties, but not the nested ones like in the address 
+ To solve this we can use structuredCopy which will copy all the proporties both nested and top level ones.

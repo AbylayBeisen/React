@@ -1,0 +1,11 @@
+1. The difference between the let and const is that 
+the Let declaration can be reassigned later.
+When it comes to the Const, it can only be declared once and it cannot be changed.
+
+2. In console Null is considered as object.
+
+3. As primitive data types we consider the String, Variable, booleans and e.t.c 
+Primitive types are the ones that are declarable and can be stored. In the code 
+if you use those values inside a new value it will be considered as Reference Data type 
+which is a pointer to out primitive value. For example the sentence that I created in
+task 1. 

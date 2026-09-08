@@ -1,0 +1,2 @@
+|| Replaces all falsy values with the right-side default value.
+?? Only replaces null and undefined. It respects 0, "", and false as actual valid values and keeps them.

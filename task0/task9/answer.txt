@@ -1,0 +1,2 @@
+1. The inner function doesn't just save its own code. It also permanently 
+saves a hidden link to the exact environment where it was born.

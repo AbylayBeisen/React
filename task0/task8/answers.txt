@@ -1,0 +1,4 @@
+1. Global is a variable outside of everything, so you can use it anywhere in the code.
+2. Function is a variable inside a function, so you can use it only inside that function.
+3. Block is a variable inside curly braces {}, so you can use it only inside those braces.
+4. let and const stay inside blocks {}, but var ignores blocks. Also, const cannot be changed.
