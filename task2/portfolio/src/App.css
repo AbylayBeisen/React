@@ -27,7 +27,7 @@ h2 {font-size: 16px;}
 p {margin: 0px;}
 .hidden{
 	opacity:0;
-	visivility: hidden;
+	visibility: hidden;
 }
 .no-select {
 	-webkit-touch-callout: none;
@@ -199,8 +199,8 @@ ALL THE REST ############################
 	top: 50%;
 	transform: translateX(-50%) translateY(-50%);
 	margin-top: 35px;
-	height: 50px;
-	width: 50px;
+	height: 200px;
+	width: 400px;
 	overflow: hidden;
 	border-radius: 50%;
 	background-color: #607D8B;
