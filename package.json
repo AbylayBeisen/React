@@ -1,0 +1,15 @@
+{
+  "name": "react-root",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:task2": "cd task2 && npm run build",
+    "build:task3": "cd task3 && npm run build",
+    "build": "rm -rf dist && mkdir -p dist && cp -r task1 dist/task1 && cp index.html dist/index.html && npm run build:task2 && npm run build:task3",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
