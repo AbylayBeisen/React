@@ -6,7 +6,8 @@ export const initialCars = [
     "year": 2023,
     "category": "Supercar",
     "topSpeed": 280,
-    "hp": 743
+    "hp": 743,
+    "image": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "2",
@@ -15,7 +16,8 @@ export const initialCars = [
     "year": 1990,
     "category": "Classic",
     "topSpeed": 264,
-    "hp": 585
+    "hp": 585,
+    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "3",
@@ -24,7 +26,8 @@ export const initialCars = [
     "year": 2005,
     "category": "Sports Car",
     "topSpeed": 322,
-    "hp": 629
+    "hp": 629,
+    "image": "https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "4",
@@ -33,7 +36,8 @@ export const initialCars = [
     "year": 2025,
     "category": "Hypercar",
     "topSpeed": 436,
-    "hp": 890
+    "hp": 890,
+    "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "5",
@@ -42,7 +46,8 @@ export const initialCars = [
     "year": 2023,
     "category": "Supercar",
     "topSpeed": 323,
-    "hp": 598
+    "hp": 598,
+    "image": "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "6",
@@ -51,7 +56,8 @@ export const initialCars = [
     "year": 2015,
     "category": "Supercar",
     "topSpeed": 279,
-    "hp": 702
+    "hp": 702,
+    "image": "https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "7",
@@ -60,7 +66,8 @@ export const initialCars = [
     "year": 2014,
     "category": "Supercar",
     "topSpeed": 310,
-    "hp": 556
+    "hp": 556,
+    "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "8",
@@ -69,7 +76,8 @@ export const initialCars = [
     "year": 2004,
     "category": "Classic",
     "topSpeed": 232,
-    "hp": 434
+    "hp": 434,
+    "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "9",
@@ -78,7 +86,8 @@ export const initialCars = [
     "year": 1997,
     "category": "Classic",
     "topSpeed": 261,
-    "hp": 272
+    "hp": 272,
+    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "10",
@@ -87,7 +96,8 @@ export const initialCars = [
     "year": 2020,
     "category": "Sports Car",
     "topSpeed": 313,
-    "hp": 552
+    "hp": 552,
+    "image": "https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "11",
@@ -96,7 +106,8 @@ export const initialCars = [
     "year": 1998,
     "category": "Classic",
     "topSpeed": 238,
-    "hp": 407
+    "hp": 407,
+    "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "12",
@@ -105,7 +116,8 @@ export const initialCars = [
     "year": 2022,
     "category": "Supercar",
     "topSpeed": 315,
-    "hp": 508
+    "hp": 508,
+    "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "13",
@@ -114,7 +126,8 @@ export const initialCars = [
     "year": 2023,
     "category": "Sports Car",
     "topSpeed": 286,
-    "hp": 630
+    "hp": 630,
+    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "14",
@@ -123,7 +136,8 @@ export const initialCars = [
     "year": 2014,
     "category": "Hypercar",
     "topSpeed": 458,
-    "hp": 1150
+    "hp": 1150,
+    "image": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "15",
@@ -132,7 +146,8 @@ export const initialCars = [
     "year": 1996,
     "category": "Classic",
     "topSpeed": 270,
-    "hp": 578
+    "hp": 578,
+    "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "16",
@@ -141,7 +156,8 @@ export const initialCars = [
     "year": 1995,
     "category": "Classic",
     "topSpeed": 302,
-    "hp": 340
+    "hp": 340,
+    "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "17",
@@ -150,7 +166,8 @@ export const initialCars = [
     "year": 2025,
     "category": "Supercar",
     "topSpeed": 294,
-    "hp": 534
+    "hp": 534,
+    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "18",
@@ -159,7 +176,8 @@ export const initialCars = [
     "year": 2018,
     "category": "Sports Car",
     "topSpeed": 325,
-    "hp": 784
+    "hp": 784,
+    "image": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "19",
@@ -168,7 +186,8 @@ export const initialCars = [
     "year": 2009,
     "category": "Supercar",
     "topSpeed": 273,
-    "hp": 461
+    "hp": 461,
+    "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "20",
@@ -177,7 +196,8 @@ export const initialCars = [
     "year": 2026,
     "category": "Sports Car",
     "topSpeed": 257,
-    "hp": 750
+    "hp": 750,
+    "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "21",
@@ -186,7 +206,8 @@ export const initialCars = [
     "year": 2021,
     "category": "Supercar",
     "topSpeed": 266,
-    "hp": 791
+    "hp": 791,
+    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "22",
@@ -195,7 +216,8 @@ export const initialCars = [
     "year": 2020,
     "category": "Sports Car",
     "topSpeed": 328,
-    "hp": 800
+    "hp": 800,
+    "image": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "23",
@@ -204,7 +226,8 @@ export const initialCars = [
     "year": 2024,
     "category": "Hypercar",
     "topSpeed": 442,
-    "hp": 1158
+    "hp": 1158,
+    "image": "https://images.unsplash.com/photo-1621135802920-133df287f89c?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "24",
@@ -213,7 +236,8 @@ export const initialCars = [
     "year": 2009,
     "category": "Supercar",
     "topSpeed": 324,
-    "hp": 607
+    "hp": 607,
+    "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "25",
@@ -222,7 +246,8 @@ export const initialCars = [
     "year": 2026,
     "category": "Sports Car",
     "topSpeed": 324,
-    "hp": 598
+    "hp": 598,
+    "image": "https://images.unsplash.com/photo-1621135802920-133df287f89c?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "26",
@@ -231,7 +256,8 @@ export const initialCars = [
     "year": 2017,
     "category": "Sports Car",
     "topSpeed": 330,
-    "hp": 667
+    "hp": 667,
+    "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "27",
@@ -240,7 +266,8 @@ export const initialCars = [
     "year": 2021,
     "category": "Supercar",
     "topSpeed": 306,
-    "hp": 658
+    "hp": 658,
+    "image": "https://images.unsplash.com/photo-1621135802920-133df287f89c?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "28",
@@ -249,7 +276,8 @@ export const initialCars = [
     "year": 2026,
     "category": "Supercar",
     "topSpeed": 326,
-    "hp": 786
+    "hp": 786,
+    "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "29",
@@ -258,7 +286,8 @@ export const initialCars = [
     "year": 2016,
     "category": "Supercar",
     "topSpeed": 269,
-    "hp": 745
+    "hp": 745,
+    "image": "https://images.unsplash.com/photo-1621135802920-133df287f89c?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "30",
@@ -267,7 +296,8 @@ export const initialCars = [
     "year": 2021,
     "category": "Supercar",
     "topSpeed": 277,
-    "hp": 741
+    "hp": 741,
+    "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "31",
@@ -276,7 +306,8 @@ export const initialCars = [
     "year": 2022,
     "category": "Sports Car",
     "topSpeed": 334,
-    "hp": 784
+    "hp": 784,
+    "image": "https://images.unsplash.com/photo-1621135802920-133df287f89c?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "32",
@@ -285,7 +316,8 @@ export const initialCars = [
     "year": 1991,
     "category": "Classic",
     "topSpeed": 271,
-    "hp": 303
+    "hp": 303,
+    "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "33",
@@ -294,7 +326,8 @@ export const initialCars = [
     "year": 2022,
     "category": "Supercar",
     "topSpeed": 325,
-    "hp": 673
+    "hp": 673,
+    "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "34",
@@ -303,7 +336,8 @@ export const initialCars = [
     "year": 2018,
     "category": "Supercar",
     "topSpeed": 301,
-    "hp": 630
+    "hp": 630,
+    "image": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "35",
@@ -312,7 +346,8 @@ export const initialCars = [
     "year": 2010,
     "category": "Sports Car",
     "topSpeed": 290,
-    "hp": 660
+    "hp": 660,
+    "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "36",
@@ -321,7 +356,8 @@ export const initialCars = [
     "year": 1991,
     "category": "Classic",
     "topSpeed": 244,
-    "hp": 363
+    "hp": 363,
+    "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "37",
@@ -330,7 +366,8 @@ export const initialCars = [
     "year": 1996,
     "category": "Classic",
     "topSpeed": 231,
-    "hp": 439
+    "hp": 439,
+    "image": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "38",
@@ -339,7 +376,8 @@ export const initialCars = [
     "year": 2012,
     "category": "Sports Car",
     "topSpeed": 337,
-    "hp": 597
+    "hp": 597,
+    "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "39",
@@ -348,7 +386,8 @@ export const initialCars = [
     "year": 1993,
     "category": "Classic",
     "topSpeed": 218,
-    "hp": 462
+    "hp": 462,
+    "image": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "40",
@@ -357,7 +396,8 @@ export const initialCars = [
     "year": 2014,
     "category": "Sports Car",
     "topSpeed": 274,
-    "hp": 610
+    "hp": 610,
+    "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "41",
@@ -366,7 +406,8 @@ export const initialCars = [
     "year": 2020,
     "category": "Hypercar",
     "topSpeed": 385,
-    "hp": 985
+    "hp": 985,
+    "image": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "42",
@@ -375,7 +416,8 @@ export const initialCars = [
     "year": 2014,
     "category": "Hypercar",
     "topSpeed": 401,
-    "hp": 868
+    "hp": 868,
+    "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "43",
@@ -384,7 +426,8 @@ export const initialCars = [
     "year": 2002,
     "category": "Classic",
     "topSpeed": 315,
-    "hp": 482
+    "hp": 482,
+    "image": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "44",
@@ -393,7 +436,8 @@ export const initialCars = [
     "year": 2020,
     "category": "Hypercar",
     "topSpeed": 416,
-    "hp": 1578
+    "hp": 1578,
+    "image": "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "45",
@@ -402,7 +446,8 @@ export const initialCars = [
     "year": 2022,
     "category": "Hypercar",
     "topSpeed": 489,
-    "hp": 1374
+    "hp": 1374,
+    "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "46",
@@ -411,7 +456,8 @@ export const initialCars = [
     "year": 2013,
     "category": "Hypercar",
     "topSpeed": 435,
-    "hp": 1370
+    "hp": 1370,
+    "image": "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "47",
@@ -420,7 +466,8 @@ export const initialCars = [
     "year": 2025,
     "category": "Hypercar",
     "topSpeed": 416,
-    "hp": 1163
+    "hp": 1163,
+    "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "48",
@@ -429,7 +476,8 @@ export const initialCars = [
     "year": 2013,
     "category": "Hypercar",
     "topSpeed": 421,
-    "hp": 1035
+    "hp": 1035,
+    "image": "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "49",
@@ -438,7 +486,8 @@ export const initialCars = [
     "year": 2023,
     "category": "Hypercar",
     "topSpeed": 406,
-    "hp": 1414
+    "hp": 1414,
+    "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "50",
@@ -447,7 +496,8 @@ export const initialCars = [
     "year": 2013,
     "category": "Hypercar",
     "topSpeed": 390,
-    "hp": 1487
+    "hp": 1487,
+    "image": "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "51",
@@ -456,7 +506,8 @@ export const initialCars = [
     "year": 2014,
     "category": "Hypercar",
     "topSpeed": 402,
-    "hp": 1446
+    "hp": 1446,
+    "image": "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "52",
@@ -465,7 +516,8 @@ export const initialCars = [
     "year": 2025,
     "category": "Hypercar",
     "topSpeed": 465,
-    "hp": 1013
+    "hp": 1013,
+    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "53",
@@ -474,7 +526,8 @@ export const initialCars = [
     "year": 2017,
     "category": "Hypercar",
     "topSpeed": 489,
-    "hp": 852
+    "hp": 852,
+    "image": "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "54",
@@ -483,7 +536,8 @@ export const initialCars = [
     "year": 2016,
     "category": "Hypercar",
     "topSpeed": 405,
-    "hp": 919
+    "hp": 919,
+    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "55",
@@ -492,7 +546,8 @@ export const initialCars = [
     "year": 2022,
     "category": "Hypercar",
     "topSpeed": 365,
-    "hp": 1088
+    "hp": 1088,
+    "image": "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "56",
@@ -501,7 +556,8 @@ export const initialCars = [
     "year": 2017,
     "category": "Hypercar",
     "topSpeed": 471,
-    "hp": 1148
+    "hp": 1148,
+    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "57",
@@ -510,7 +566,8 @@ export const initialCars = [
     "year": 2021,
     "category": "Hypercar",
     "topSpeed": 432,
-    "hp": 1109
+    "hp": 1109,
+    "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "58",
@@ -519,7 +576,8 @@ export const initialCars = [
     "year": 2021,
     "category": "Hypercar",
     "topSpeed": 431,
-    "hp": 831
+    "hp": 831,
+    "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "59",
@@ -528,7 +586,8 @@ export const initialCars = [
     "year": 2023,
     "category": "Hypercar",
     "topSpeed": 351,
-    "hp": 1164
+    "hp": 1164,
+    "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "60",
@@ -537,7 +596,8 @@ export const initialCars = [
     "year": 2013,
     "category": "Hypercar",
     "topSpeed": 365,
-    "hp": 1340
+    "hp": 1340,
+    "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "61",
@@ -546,7 +606,8 @@ export const initialCars = [
     "year": 2025,
     "category": "Hypercar",
     "topSpeed": 358,
-    "hp": 1304
+    "hp": 1304,
+    "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "62",
@@ -555,7 +616,8 @@ export const initialCars = [
     "year": 2018,
     "category": "Hypercar",
     "topSpeed": 431,
-    "hp": 936
+    "hp": 936,
+    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "63",
@@ -564,7 +626,8 @@ export const initialCars = [
     "year": 2023,
     "category": "Sports Car",
     "topSpeed": 304,
-    "hp": 706
+    "hp": 706,
+    "image": "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "64",
@@ -573,7 +636,8 @@ export const initialCars = [
     "year": 2017,
     "category": "Sports Car",
     "topSpeed": 305,
-    "hp": 766
+    "hp": 766,
+    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "65",
@@ -582,7 +646,8 @@ export const initialCars = [
     "year": 2009,
     "category": "Supercar",
     "topSpeed": 309,
-    "hp": 587
+    "hp": 587,
+    "image": "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "66",
@@ -591,7 +656,8 @@ export const initialCars = [
     "year": 2023,
     "category": "Sports Car",
     "topSpeed": 293,
-    "hp": 644
+    "hp": 644,
+    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "67",
@@ -600,7 +666,8 @@ export const initialCars = [
     "year": 2021,
     "category": "Sports Car",
     "topSpeed": 256,
-    "hp": 601
+    "hp": 601,
+    "image": "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "68",
@@ -609,7 +676,8 @@ export const initialCars = [
     "year": 2004,
     "category": "Classic",
     "topSpeed": 284,
-    "hp": 399
+    "hp": 399,
+    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "69",
@@ -618,7 +686,8 @@ export const initialCars = [
     "year": 2019,
     "category": "Supercar",
     "topSpeed": 302,
-    "hp": 782
+    "hp": 782,
+    "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "70",
@@ -627,7 +696,8 @@ export const initialCars = [
     "year": 2023,
     "category": "Hypercar",
     "topSpeed": 393,
-    "hp": 1136
+    "hp": 1136,
+    "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "71",
@@ -636,7 +706,8 @@ export const initialCars = [
     "year": 1990,
     "category": "Classic",
     "topSpeed": 222,
-    "hp": 411
+    "hp": 411,
+    "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "72",
@@ -645,7 +716,8 @@ export const initialCars = [
     "year": 1991,
     "category": "Classic",
     "topSpeed": 275,
-    "hp": 290
+    "hp": 290,
+    "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "73",
@@ -654,7 +726,8 @@ export const initialCars = [
     "year": 1993,
     "category": "Classic",
     "topSpeed": 250,
-    "hp": 428
+    "hp": 428,
+    "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "74",
@@ -663,7 +736,8 @@ export const initialCars = [
     "year": 2003,
     "category": "Classic",
     "topSpeed": 234,
-    "hp": 522
+    "hp": 522,
+    "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "75",
@@ -672,7 +746,8 @@ export const initialCars = [
     "year": 2014,
     "category": "Sports Car",
     "topSpeed": 300,
-    "hp": 538
+    "hp": 538,
+    "image": "https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "76",
@@ -681,7 +756,8 @@ export const initialCars = [
     "year": 2002,
     "category": "Classic",
     "topSpeed": 234,
-    "hp": 540
+    "hp": 540,
+    "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "77",
@@ -690,7 +766,8 @@ export const initialCars = [
     "year": 2001,
     "category": "Classic",
     "topSpeed": 223,
-    "hp": 485
+    "hp": 485,
+    "image": "https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "78",
@@ -699,7 +776,8 @@ export const initialCars = [
     "year": 2026,
     "category": "Supercar",
     "topSpeed": 325,
-    "hp": 606
+    "hp": 606,
+    "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "79",
@@ -708,7 +786,8 @@ export const initialCars = [
     "year": 1995,
     "category": "Classic",
     "topSpeed": 292,
-    "hp": 499
+    "hp": 499,
+    "image": "https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "80",
@@ -717,7 +796,8 @@ export const initialCars = [
     "year": 2026,
     "category": "Supercar",
     "topSpeed": 272,
-    "hp": 428
+    "hp": 428,
+    "image": "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "81",
@@ -726,7 +806,8 @@ export const initialCars = [
     "year": 2012,
     "category": "Supercar",
     "topSpeed": 293,
-    "hp": 534
+    "hp": 534,
+    "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "82",
@@ -735,7 +816,8 @@ export const initialCars = [
     "year": 2003,
     "category": "Classic",
     "topSpeed": 305,
-    "hp": 478
+    "hp": 478,
+    "image": "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "83",
@@ -744,7 +826,8 @@ export const initialCars = [
     "year": 2011,
     "category": "Sports Car",
     "topSpeed": 294,
-    "hp": 545
+    "hp": 545,
+    "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "84",
@@ -753,7 +836,8 @@ export const initialCars = [
     "year": 2009,
     "category": "Sports Car",
     "topSpeed": 325,
-    "hp": 437
+    "hp": 437,
+    "image": "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "85",
@@ -762,7 +846,8 @@ export const initialCars = [
     "year": 2008,
     "category": "Supercar",
     "topSpeed": 279,
-    "hp": 723
+    "hp": 723,
+    "image": "https://images.unsplash.com/photo-1607853554439-0069ec0f29b6?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "86",
@@ -771,7 +856,8 @@ export const initialCars = [
     "year": 2018,
     "category": "Sports Car",
     "topSpeed": 272,
-    "hp": 609
+    "hp": 609,
+    "image": "https://images.unsplash.com/photo-1584345604476-8ec5e12e42dd?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "87",
@@ -780,7 +866,8 @@ export const initialCars = [
     "year": 1993,
     "category": "Classic",
     "topSpeed": 291,
-    "hp": 417
+    "hp": 417,
+    "image": "https://images.unsplash.com/photo-1607853554439-0069ec0f29b6?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "88",
@@ -789,7 +876,8 @@ export const initialCars = [
     "year": 2014,
     "category": "Sports Car",
     "topSpeed": 309,
-    "hp": 796
+    "hp": 796,
+    "image": "https://images.unsplash.com/photo-1584345604476-8ec5e12e42dd?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "89",
@@ -798,7 +886,8 @@ export const initialCars = [
     "year": 2014,
     "category": "Sports Car",
     "topSpeed": 292,
-    "hp": 497
+    "hp": 497,
+    "image": "https://images.unsplash.com/photo-1607853554439-0069ec0f29b6?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "90",
@@ -807,7 +896,8 @@ export const initialCars = [
     "year": 2000,
     "category": "Classic",
     "topSpeed": 307,
-    "hp": 250
+    "hp": 250,
+    "image": "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "91",
@@ -816,7 +906,8 @@ export const initialCars = [
     "year": 2000,
     "category": "Classic",
     "topSpeed": 285,
-    "hp": 469
+    "hp": 469,
+    "image": "https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "92",
@@ -825,7 +916,8 @@ export const initialCars = [
     "year": 2020,
     "category": "Supercar",
     "topSpeed": 329,
-    "hp": 732
+    "hp": 732,
+    "image": "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "93",
@@ -834,7 +926,8 @@ export const initialCars = [
     "year": 2015,
     "category": "Supercar",
     "topSpeed": 290,
-    "hp": 453
+    "hp": 453,
+    "image": "https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "94",
@@ -843,7 +936,8 @@ export const initialCars = [
     "year": 1993,
     "category": "Classic",
     "topSpeed": 258,
-    "hp": 507
+    "hp": 507,
+    "image": "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "95",
@@ -852,7 +946,8 @@ export const initialCars = [
     "year": 2002,
     "category": "Classic",
     "topSpeed": 266,
-    "hp": 263
+    "hp": 263,
+    "image": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "96",
@@ -861,7 +956,8 @@ export const initialCars = [
     "year": 2020,
     "category": "Supercar",
     "topSpeed": 334,
-    "hp": 633
+    "hp": 633,
+    "image": "https://images.unsplash.com/photo-1584345604476-8ec5e12e42dd?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "97",
@@ -870,7 +966,8 @@ export const initialCars = [
     "year": 2020,
     "category": "Supercar",
     "topSpeed": 267,
-    "hp": 726
+    "hp": 726,
+    "image": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "98",
@@ -879,7 +976,8 @@ export const initialCars = [
     "year": 1995,
     "category": "Classic",
     "topSpeed": 266,
-    "hp": 573
+    "hp": 573,
+    "image": "https://images.unsplash.com/photo-1584345604476-8ec5e12e42dd?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "99",
@@ -888,7 +986,8 @@ export const initialCars = [
     "year": 2013,
     "category": "Sports Car",
     "topSpeed": 317,
-    "hp": 633
+    "hp": 633,
+    "image": "https://images.unsplash.com/photo-1584345604476-8ec5e12e42dd?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "100",
@@ -897,7 +996,8 @@ export const initialCars = [
     "year": 1996,
     "category": "Classic",
     "topSpeed": 208,
-    "hp": 341
+    "hp": 341,
+    "image": "https://images.unsplash.com/photo-1584345604476-8ec5e12e42dd?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "101",
@@ -906,7 +1006,8 @@ export const initialCars = [
     "year": 1998,
     "category": "Classic",
     "topSpeed": 267,
-    "hp": 363
+    "hp": 363,
+    "image": "https://images.unsplash.com/photo-1584345604476-8ec5e12e42dd?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "102",
@@ -915,7 +1016,8 @@ export const initialCars = [
     "year": 2013,
     "category": "Sports Car",
     "topSpeed": 268,
-    "hp": 504
+    "hp": 504,
+    "image": "https://images.unsplash.com/photo-1584345604476-8ec5e12e42dd?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "103",
@@ -924,7 +1026,8 @@ export const initialCars = [
     "year": 2026,
     "category": "Prototype",
     "topSpeed": 103,
-    "hp": 100
+    "hp": 100,
+    "image": null
   },
   {
     "id": "104",
@@ -933,7 +1036,8 @@ export const initialCars = [
     "year": 2024,
     "category": "Prototype",
     "topSpeed": 103,
-    "hp": 63
+    "hp": 63,
+    "image": null
   },
   {
     "id": "105",
@@ -942,7 +1046,8 @@ export const initialCars = [
     "year": 2024,
     "category": "Prototype",
     "topSpeed": 119,
-    "hp": 115
+    "hp": 115,
+    "image": null
   },
   {
     "id": "106",
@@ -951,6 +1056,7 @@ export const initialCars = [
     "year": 2024,
     "category": "Prototype",
     "topSpeed": 127,
-    "hp": 82
+    "hp": 82,
+    "image": null
   }
 ];

@@ -67,19 +67,23 @@ export default function App() {
 
   if (selectedCar) {
     return (
-      <div style={{ fontFamily: 'sans-serif', margin: 0, padding: 0 }}>
+      <>
         <Header onAddClick={() => setIsAddingMode(true)} />
-        <VehicleDetails car={selectedCar} onBack={() => setSelectedCar(null)} />
-      </div>
+        <div className="catalog-container">
+          <VehicleDetails car={selectedCar} onBack={() => setSelectedCar(null)} />
+        </div>
+      </>
     );
   }
 
   if (isAddingMode) {
     return (
-      <div style={{ fontFamily: 'sans-serif', margin: 0, padding: 0 }}>
+      <>
         <Header onAddClick={() => {}} />
-        <NewCarForm onAdd={handleAddCar} onClose={() => setIsAddingMode(false)} />
-      </div>
+        <div className="catalog-container">
+          <NewCarForm onAdd={handleAddCar} onClose={() => setIsAddingMode(false)} />
+        </div>
+      </>
     );
   }
 
@@ -107,37 +111,39 @@ export default function App() {
   const currentCars = processedCars.slice(startIndex, startIndex + itemsPerPage);
 
   return (
-    <div style={{ fontFamily: 'sans-serif', margin: 0, padding: 0 }}>
+    <>
       <Header onAddClick={() => setIsAddingMode(true)} />
       
-      {!isLoading && !error && (
-        <Filter 
-          searchTerm={searchTerm}
-          setSearchTerm={setSearchTerm}
-          filterCategory={filterCategory}
-          setFilterCategory={setFilterCategory}
-          sortBy={sortBy}
-          setSortBy={setSortBy}
-        />
-      )}
-
-      {isLoading && <p style={{ padding: '20px' }}>Загрузка данных...</p>}
-      {error && <p style={{ color: 'red', padding: '20px' }}>{error}</p>}
-      
-      {!isLoading && !error && processedCars.length === 0 && (
-        <p style={{ padding: '20px' }}>Ничего не найдено.</p>
-      )}
-      
-      {!isLoading && !error && processedCars.length > 0 && (
-        <>
-          <VehicleGrid cars={currentCars} onCarClick={setSelectedCar} />
-          <Pagination 
-            currentPage={currentPage} 
-            totalPages={totalPages} 
-            setCurrentPage={setCurrentPage} 
+      <div className="catalog-container">
+        {!isLoading && !error && (
+          <Filter 
+            searchTerm={searchTerm}
+            setSearchTerm={setSearchTerm}
+            filterCategory={filterCategory}
+            setFilterCategory={setFilterCategory}
+            sortBy={sortBy}
+            setSortBy={setSortBy}
           />
-        </>
-      )}
-    </div>
+        )}
+
+        {isLoading && <p style={{ color: '#94a3b8', textAlign: 'center', fontSize: '1.2rem', padding: '20px' }}>Загрузка данных...</p>}
+        {error && <p style={{ color: '#ef4444', textAlign: 'center', fontSize: '1.2rem', padding: '20px' }}>{error}</p>}
+        
+        {!isLoading && !error && processedCars.length === 0 && (
+          <p style={{ color: '#94a3b8', textAlign: 'center', fontSize: '1.2rem', padding: '20px' }}>Ничего не найдено.</p>
+        )}
+        
+        {!isLoading && !error && processedCars.length > 0 && (
+          <>
+            <VehicleGrid cars={currentCars} onCarClick={setSelectedCar} />
+            <Pagination 
+              currentPage={currentPage} 
+              totalPages={totalPages} 
+              setCurrentPage={setCurrentPage} 
+            />
+          </>
+        )}
+      </div>
+    </>
   );
 }
