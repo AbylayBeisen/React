@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --bg-color: #0b0f19;
+  --card-bg: rgba(30, 41, 59, 0.7);
+  --border-color: rgba(255, 255, 255, 0.1);
+  --accent-color: #3b82f6;
+  --accent-hover: #2563eb;
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: 'Outfit', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  background-image:
+    radial-gradient(circle at 10% 20%, rgba(59, 130, 246, 0.1) 0%, transparent 40%),
+    radial-gradient(circle at 90% 80%, rgba(147, 51, 234, 0.1) 0%, transparent 40%);
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+img,
+svg,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+.catalog-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 14px;
+}
+
+.catalog-title {
+  font-size: clamp(1.6rem, 6vw, 2.5rem);
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 20px 0;
+  background: linear-gradient(135deg, #60a5fa, #c084fc);
+
+  /* Стандартное свойство для совместимости */
+  background-clip: text;
+  /* Префикс для поддержки в Chrome, Safari, Edge */
+  -webkit-background-clip: text;
+
+  /* Делаем текст прозрачным, чтобы проявился градиент */
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  overflow-wrap: break-word;
+}
+
+.cars-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.car-card {
+  background: var(--card-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.car-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+  border-color: rgba(59, 130, 246, 0.4);
+}
+
+.car-image-container {
+  width: 100%;
+  height: 190px;
+  overflow: hidden;
+}
+
+.car-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.car-card:hover .car-image {
+  transform: scale(1.08);
+}
+
+.car-info {
+  padding: 20px;
+}
+
+.car-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 0 10px 0;
+  color: var(--text-main);
+  overflow-wrap: break-word;
+}
+
+.car-price {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #60a5fa;
+  margin-bottom: 15px;
+}
+
+.car-details-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 12px;
+  background: var(--accent-color);
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+  text-decoration: none;
+}
+
+.car-details-btn:hover {
+  background: var(--accent-hover);
+}
+
+@media (max-width: 768px) {
+  html,
+  body {
+    background-attachment: scroll;
+  }
+}
+
+@media (max-width: 480px) {
+  .catalog-container {
+    padding: 16px 12px;
+  }
+
+  .car-image-container {
+    height: 165px;
+  }
+
+  .car-info {
+    padding: 14px;
+  }
+
+  .car-title {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .cars-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}
