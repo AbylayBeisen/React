@@ -5,7 +5,6 @@ import ProtectedRoute from "./components/ProtectedRoute.jsx";
 import Home from "./pages/Home.jsx";
 import OfflinePage from "./pages/OfflinePage";
 
-
 const About = React.lazy(() => import("./pages/About.jsx"));
 const CarsList = React.lazy(() => import("./pages/CarList.jsx"));
 const VehicleDetails = React.lazy(() => import("./pages/CarDetailsPage.jsx")); 
@@ -16,11 +15,17 @@ const Login = React.lazy(() => import("./pages/Login.jsx"));
 const Signup = React.lazy(() => import("./pages/Signup.jsx"));
 const Profile = React.lazy(() => import("./pages/Profile.jsx"));
 
-const FallbackLoader = () => <div style={{ textAlign: "center", padding: "50px", color: "var(--primary)" }}>Загрузка...</div>;
+const FallbackLoader = () => (
+  <div style={{ textAlign: "center", padding: "50px", color: "var(--primary)" }}>
+    Загрузка...
+  </div>
+);
+
+const basename = import.meta.env.DEV ? "/" : "/React/task7";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
       <Suspense fallback={<FallbackLoader />}>
         <Routes>
           <Route path="/" element={<RootLayout />}>
@@ -33,8 +38,8 @@ export default function App() {
             <Route path="login" element={<Login />} />
             <Route path="signup" element={<Signup />} />
             <Route path="profile" element={<ProtectedRoute><Profile /></ProtectedRoute>} />
+            <Route path="offline" element={<OfflinePage />} />
             <Route path="*" element={<NotFound />} />
-            <Route path="/offline" element={<OfflinePage />} />
           </Route>
         </Routes>
       </Suspense>
