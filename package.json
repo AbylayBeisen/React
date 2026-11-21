@@ -6,7 +6,11 @@
     "build:task2": "cd task2 && npm run build",
     "build:task3": "cd task3 && npm run build",
     "build:carcatalog": "cd carcatalog && npm run build",
-    "build": "rm -rf dist && mkdir -p dist && cp -r task1 dist/task1 && cp index.html dist/index.html && npm run build:task2 && npm run build:task3 && npm run build:carcatalog && cp -r carcatalog/dist dist/carcatalog",
+    "build:task4": "cd task4 && npm run build",
+    "build:task5": "cd task5 && npm run build",
+    "build:task6": "cd task6 && npm run build",
+    "build:task7": "cd task7 && npm run build",
+    "build": "rm -rf dist && mkdir -p dist && cp -r task1 dist/task1 && cp index.html dist/index.html && npm run build:task2 && npm run build:task3 && npm run build:carcatalog && cp -r carcatalog/dist dist/carcatalog && npm run build:task4 && cp -r task4/dist dist/task4 && npm run build:task5 && cp -r task5/dist dist/task5 && npm run build:task6 && cp -r task6/dist dist/task6 && npm run build:task7 && cp -r task7/dist dist/task7",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
